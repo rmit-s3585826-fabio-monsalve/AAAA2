@@ -13,22 +13,27 @@ import java.util.Iterator;
  *
  * @authors Banu and Fabio Monsalve s3585826
  */
-public class GreedyGuessPlayer  implements Player{
+public class GreedyGuessPlayer  implements Player {
+  private World world;
   private int shipsRemaining = 0;
   private ArrayList<World.ShipLocation> shipsLoc;
   private HashMap<String, Ghostship> ghostShips = new HashMap<>();
-  private ArrayList <World.Coordinate> coordSet = new ArrayList<>();
+  private ArrayList<World.Coordinate> coordSet = new ArrayList<>();
   private boolean targetingMode;
   private int targetsHit = 0;
   private int currentTargetRow;
   private int currentTargetColumn;
+  World.Coordinate currentTarget;
+  private ArrayList<World.Coordinate> huntingTargets;
 
   @Override
   public void initialisePlayer(World world) {
+    this.world = world;
     shipsLoc = world.shipLocations;
     Ghostship ghostship;
+    currentTarget = world.new Coordinate();
 
-    for (World.ShipLocation s: shipsLoc) {
+    for (World.ShipLocation s : shipsLoc) {
       shipsRemaining = shipsRemaining + s.ship.len();
       System.out.println(shipsRemaining);
       System.out.println(s.ship.name());
@@ -36,8 +41,8 @@ public class GreedyGuessPlayer  implements Player{
       ghostShips.put(s.ship.name(), ghostship);
     }
 
-    for (int i =0; i< world.numColumn; i++) {
-      for (int j= 0; j< world.numRow; j++) {
+    for (int i = 0; i < world.numColumn; i++) {
+      for (int j = 0; j < world.numRow; j++) {
         World.Coordinate cd = world.new Coordinate();
         cd.column = i;
         cd.row = j;
@@ -51,7 +56,7 @@ public class GreedyGuessPlayer  implements Player{
     Answer answer = new Answer();
     Iterator<World.Coordinate> it;
 
-    for (World.ShipLocation sl: shipsLoc) {
+    for (World.ShipLocation sl : shipsLoc) {
       it = sl.coordinates.iterator();
 
       while (it.hasNext()) {
@@ -59,11 +64,10 @@ public class GreedyGuessPlayer  implements Player{
         if (sh.column == guess.column && sh.row == guess.row) {
           answer.isHit = true;
           shipsRemaining--;
-          ghostShips.get(sl.ship.name()).len --;
-          if(ghostShips.get(sl.ship.name()).len == 0){
+          ghostShips.get(sl.ship.name()).len--;
+          if (ghostShips.get(sl.ship.name()).len == 0) {
             answer.shipSunk = sl.ship;
           }
-          System.out.println(shipsRemaining);
           it.remove();
           break;
         }
@@ -77,37 +81,52 @@ public class GreedyGuessPlayer  implements Player{
     Guess guess = new Guess();
 
     if (targetingMode) {
-      if (targetsHit == 0) {
-        guess.row = currentTargetRow - 1;
-        guess.column = currentTargetColumn;
-        targetsHit ++;
-        return guess;
-      } else if (targetsHit == 1) {
-        guess.row = currentTargetRow + 1;
-        guess.column = currentTargetColumn;
-        targetsHit ++;
-        return guess;
-      } else if (targetsHit == 2) {
-        guess.row = currentTargetRow;
-        guess.column = currentTargetColumn + 1;
-        targetsHit ++;
-        return guess;
-      } else if (targetsHit == 3) {
-        guess.row = currentTargetRow;
-        guess.column = currentTargetColumn - 1;
-        targetsHit ++;
-        targetingMode = false;
-        return guess;
+      boolean a = true;
+
+      while (true) {
+        huntingTargets = new ArrayList<>();
+        if (targetsHit == 0) {
+          World.Coordinate coordinate1 = world.new Coordinate();
+          coordinate1.row = currentTarget.row - 1;
+          coordinate1.column = currentTarget.column;
+          guess.row = coordinate1.row;
+          guess.column = coordinate1.column;
+        } else if (targetsHit == 1) {
+          World.Coordinate coordinate2 = world.new Coordinate();
+          coordinate2.row = currentTarget.row + 1;
+          coordinate2.column = currentTarget.column;
+          guess.row = coordinate2.row;
+          guess.column = coordinate2.column;
+        } else if (targetsHit == 2) {
+          World.Coordinate coordinate3 = world.new Coordinate();
+          coordinate3.row = currentTarget.row;
+          coordinate3.column = currentTarget.column + 1;
+          guess.row = coordinate3.row;
+          guess.column = coordinate3.column;
+        } else if (targetsHit == 3) {
+          World.Coordinate coordinate4 = world.new Coordinate();
+          coordinate4.row = currentTarget.row;
+          coordinate4.column = currentTarget.column - 1;
+          guess.row = coordinate4.row;
+          guess.column = coordinate4.column;
+          targetingMode = false;
+        }
+
+        if (guessValidation(guess)){
+          targetsHit++;
+          return guess;
+        }
       }
-    }else {
+
+    } else {
       ArrayList<World.Coordinate> hits = coordSet;
       World.Coordinate nextGuessVal;
 
-      int c =1;
+      int c = 1;
 
       while (!hits.isEmpty()) {
         if (c > hits.size()) {
-          System.out.println(hits.get(hits.size() - 1).column +  " " +
+          System.out.println(hits.get(hits.size() - 1).column + " " +
                   hits.get(hits.size() - 1).row);
           c = 1;
           nextGuessVal = hits.get(hits.size() - c);
@@ -131,6 +150,13 @@ public class GreedyGuessPlayer  implements Player{
     }
     return guess;
   }
+
+  public boolean guessValidation(Guess guess){
+
+    return guess.row > 0 || guess.row < 10 || guess.column > 0 ||
+            guess.column < 10;
+  }
+
 
   @Override
   public void update(Guess guess, Answer answer) {

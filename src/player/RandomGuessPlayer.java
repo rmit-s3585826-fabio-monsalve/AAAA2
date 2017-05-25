@@ -60,8 +60,6 @@ public class RandomGuessPlayer implements Player{
           if(ghostShips.get(sl.ship.name()).len == 0){
             answer.shipSunk = sl.ship;
           }
-          System.out.println(" -- random -- Ship cells reamining: " +
-                  shipsremaining);
           it.remove();
           break;
         }

@@ -1,534 +1,689 @@
 Round 1
-Player 1 guesses/fires at row 4 column 4.
+Player 1 guesses/fires at row 8 column 5.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 6 column 6.
+Player 2 guesses/fires at row 9 column 9.
 Player 1 answers that guess/shot missed.
 Round 2
-Player 1 guesses/fires at row 5 column 4.
+Player 1 guesses/fires at row 0 column 6.
+Player 2 answers that a ship is hit.
+Player 2 guesses/fires at row 7 column 9.
+Player 1 answers that guess/shot missed.
+Round 3
+Player 1 guesses/fires at row 0 column 1.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 5 column 9.
+Player 1 answers that guess/shot missed.
+Round 4
+Player 1 guesses/fires at row 0 column 2.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 3 column 9.
+Player 1 answers that guess/shot missed.
+Round 5
+Player 1 guesses/fires at row 4 column 6.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 1 column 9.
+Player 1 answers that guess/shot missed.
+Round 6
+Player 1 guesses/fires at row 9 column 9.
 Player 2 answers that guess/shot missed.
 Player 2 guesses/fires at row 8 column 8.
 Player 1 answers that guess/shot missed.
-Round 3
+Round 7
+Player 1 guesses/fires at row 8 column 8.
+Player 2 answers that a ship is hit.
+Player 2 guesses/fires at row 6 column 8.
+Player 1 answers that a ship is hit.
+Round 8
+Player 1 guesses/fires at row 8 column 3.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 9
+Player 1 guesses/fires at row 1 column 8.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 1 column 0.
+Player 1 answers that guess/shot missed.
+Round 10
+Player 1 guesses/fires at row 6 column 5.
+Player 2 answers that a ship is hit.
+Player 2 guesses/fires at row 0 column 1.
+Player 1 answers that guess/shot missed.
+Round 11
+Player 1 guesses/fires at row 5 column 6.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 12
+Player 1 guesses/fires at row 7 column 4.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 4 column 8.
+Player 1 answers that a ship is hit.
+Round 13
+Player 1 guesses/fires at row 6 column 6.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 14
+Player 1 guesses/fires at row 0 column 0.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 1 column 0.
+Player 1 answers that guess/shot missed.
+Round 15
+Player 1 guesses/fires at row 6 column 8.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column 1.
+Player 1 answers that guess/shot missed.
+Round 16
+Player 1 guesses/fires at row 5 column 9.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 17
 Player 1 guesses/fires at row 4 column 5.
 Player 2 answers that a ship is hit.
-Player 2 guesses/fires at row 6 column 2.
+Player 2 guesses/fires at row 2 column 8.
 Player 1 answers that guess/shot missed.
-Round 4
-Player 1 guesses/fires at row 5 column 1.
+Round 18
+Player 1 guesses/fires at row 2 column 2.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 5 column 4.
+Player 2 guesses/fires at row 0 column 8.
 Player 1 answers that guess/shot missed.
-Round 5
-Player 1 guesses/fires at row 5 column 5.
-Player 2 answers that a ship is hit.
-Player 2 guesses/fires at row 2 column 7.
-Player 1 answers that guess/shot missed.
-Round 6
-Player 1 guesses/fires at row 5 column 1.
+Round 19
+Player 1 guesses/fires at row 6 column 9.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 4 column 1.
+Player 2 guesses/fires at row 9 column 7.
 Player 1 answers that guess/shot missed.
-Round 7
-Player 1 guesses/fires at row 5 column 3.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 3 column 3.
-Player 1 answers that guess/shot missed.
-Round 8
-Player 1 guesses/fires at row 4 column 6.
+Round 20
+Player 1 guesses/fires at row 4 column 4.
 Player 2 answers that guess/shot missed.
 Player 2 guesses/fires at row 7 column 7.
 Player 1 answers that guess/shot missed.
-Round 9
-Player 1 guesses/fires at row 3 column 4.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 1 column 6.
-Player 1 answers that guess/shot missed.
-Round 10
-Player 1 guesses/fires at row 3 column 5.
-Player 2 answers that a ship is hit.
-Player 2 guesses/fires at row 9 column 5.
-Player 1 answers that guess/shot missed.
-Round 11
-Player 1 guesses/fires at row 5 column 1.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 6 column 5.
-Player 1 answers that guess/shot missed.
-Round 12
-Player 1 guesses/fires at row 6 column 5.
-Player 2 answers that the Battleship is hit and sunk.
-Player 2 guesses/fires at row 3 column 0.
-Player 1 answers that guess/shot missed.
-Round 13
-Player 1 guesses/fires at row 5 column 1.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 3 column 2.
-Player 1 answers that guess/shot missed.
-Round 14
-Player 1 guesses/fires at row 5 column 6.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 6 column 4.
-Player 1 answers that guess/shot missed.
-Round 15
-Player 1 guesses/fires at row 6 column 4.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 5 column 0.
-Player 1 answers that guess/shot missed.
-Round 16
-Player 1 guesses/fires at row 4 column 3.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 0 column 2.
-Player 1 answers that guess/shot missed.
-Round 17
-Player 1 guesses/fires at row 4 column 2.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 2 column 4.
-Player 1 answers that a ship is hit.
-Round 18
-Player 1 guesses/fires at row 5 column 7.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 3 column 5.
-Player 1 answers that guess/shot missed.
-Round 19
-Player 1 guesses/fires at row 2 column 4.
-Player 2 answers that a ship is hit.
-Player 2 guesses/fires at row 2 column 6.
-Player 1 answers that guess/shot missed.
-Round 20
-Player 1 guesses/fires at row 4 column 1.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 4 column 3.
-Player 1 answers that guess/shot missed.
 Round 21
-Player 1 guesses/fires at row 2 column 5.
-Player 2 answers that a ship is hit.
-Player 2 guesses/fires at row 8 column 9.
+Player 1 guesses/fires at row 2 column 0.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 5 column 7.
 Player 1 answers that guess/shot missed.
 Round 22
 Player 1 guesses/fires at row 5 column 1.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 5 column 3.
+Player 2 guesses/fires at row 3 column 7.
 Player 1 answers that guess/shot missed.
 Round 23
-Player 1 guesses/fires at row 6 column 3.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 7 column 1.
-Player 1 answers that a ship is hit.
-Round 24
-Player 1 guesses/fires at row 4 column 7.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 0 column 1.
-Player 1 answers that guess/shot missed.
-Round 25
-Player 1 guesses/fires at row 7 column 4.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 8 column 3.
-Player 1 answers that guess/shot missed.
-Round 26
-Player 1 guesses/fires at row 3 column 3.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 9 column 3.
-Player 1 answers that a ship is hit.
-Round 27
-Player 1 guesses/fires at row 3 column 6.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 5 column 8.
-Player 1 answers that a ship is hit.
-Round 28
-Player 1 guesses/fires at row 6 column 6.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 0 column 9.
-Player 1 answers that guess/shot missed.
-Round 29
-Player 1 guesses/fires at row 7 column 5.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 1 column 1.
-Player 1 answers that guess/shot missed.
-Round 30
-Player 1 guesses/fires at row 5 column 2.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 4 column 9.
-Player 1 answers that guess/shot missed.
-Round 31
-Player 1 guesses/fires at row 6 column 7.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 0 column 6.
-Player 1 answers that guess/shot missed.
-Round 32
-Player 1 guesses/fires at row 7 column 6.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 2 column 2.
-Player 1 answers that guess/shot missed.
-Round 33
-Player 1 guesses/fires at row 6 column 2.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 5 column 9.
-Player 1 answers that guess/shot missed.
-Round 34
-Player 1 guesses/fires at row 2 column 3.
-Player 2 answers that a ship is hit.
-Player 2 guesses/fires at row 3 column 4.
-Player 1 answers that a ship is hit.
-Round 35
-Player 1 guesses/fires at row 4 column 0.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 5 column 6.
-Player 1 answers that guess/shot missed.
-Round 36
-Player 1 guesses/fires at row 3 column 2.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 0 column 4.
-Player 1 answers that guess/shot missed.
-Round 37
-Player 1 guesses/fires at row 7 column 3.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 1 column 8.
-Player 1 answers that guess/shot missed.
-Round 38
-Player 1 guesses/fires at row 2 column 6.
-Player 2 answers that a ship is hit.
-Player 2 guesses/fires at row 2 column 8.
-Player 1 answers that guess/shot missed.
-Round 39
-Player 1 guesses/fires at row 5 column 0.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 4 column 2.
-Player 1 answers that a ship is hit.
-Round 40
-Player 1 guesses/fires at row 3 column 7.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 6 column 7.
-Player 1 answers that guess/shot missed.
-Round 41
-Player 1 guesses/fires at row 2 column 2.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 8 column 7.
-Player 1 answers that guess/shot missed.
-Round 42
-Player 1 guesses/fires at row 4 column 1.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 7 column 8.
-Player 1 answers that guess/shot missed.
-Round 43
-Player 1 guesses/fires at row 4 column 8.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 0 column 3.
-Player 1 answers that guess/shot missed.
-Round 44
-Player 1 guesses/fires at row 5 column 1.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 9 column 0.
-Player 1 answers that guess/shot missed.
-Round 45
-Player 1 guesses/fires at row 1 column 5.
+Player 1 guesses/fires at row 5 column 7.
 Player 2 answers that guess/shot missed.
 Player 2 guesses/fires at row 1 column 7.
 Player 1 answers that guess/shot missed.
-Round 46
-Player 1 guesses/fires at row 7 column 2.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 5 column 2.
-Player 1 answers that the Destroyer is hit and sunk.
-Round 47
-Player 1 guesses/fires at row 1 column 4.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 7 column 4.
-Player 1 answers that a ship is hit.
-Round 48
-Player 1 guesses/fires at row 7 column 7.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 4 column 0.
-Player 1 answers that guess/shot missed.
-Round 49
-Player 1 guesses/fires at row 8 column 4.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 1 column 4.
-Player 1 answers that a ship is hit.
-Round 50
-Player 1 guesses/fires at row 8 column 5.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 6 column 3.
-Player 1 answers that guess/shot missed.
-Round 51
+Round 24
 Player 1 guesses/fires at row 5 column 8.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 7 column 3.
-Player 1 answers that a ship is hit.
-Round 52
-Player 1 guesses/fires at row 2 column 7.
-Player 2 answers that the AircraftCarrier is hit and sunk.
-Player 2 guesses/fires at row 2 column 9.
-Player 1 answers that guess/shot missed.
-Round 53
-Player 1 guesses/fires at row 6 column 0.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 7 column 6.
-Player 1 answers that guess/shot missed.
-Round 54
-Player 1 guesses/fires at row 4 column 0.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 3 column 6.
-Player 1 answers that guess/shot missed.
-Round 55
-Player 1 guesses/fires at row 5 column 9.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 9 column 2.
-Player 1 answers that a ship is hit.
-Round 56
-Player 1 guesses/fires at row 1 column 6.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 7 column 9.
-Player 1 answers that guess/shot missed.
-Round 57
-Player 1 guesses/fires at row 3 column 1.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 1 column 5.
-Player 1 answers that guess/shot missed.
-Round 58
-Player 1 guesses/fires at row 0 column 4.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 5 column 5.
-Player 1 answers that guess/shot missed.
-Round 59
-Player 1 guesses/fires at row 6 column 8.
 Player 2 answers that guess/shot missed.
 Player 2 guesses/fires at row 8 column 6.
 Player 1 answers that guess/shot missed.
-Round 60
-Player 1 guesses/fires at row 9 column 4.
+Round 25
+Player 1 guesses/fires at row 8 column 4.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 6 column 9.
+Player 2 guesses/fires at row 6 column 6.
 Player 1 answers that guess/shot missed.
-Round 61
-Player 1 guesses/fires at row 6 column 1.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 8 column 0.
-Player 1 answers that guess/shot missed.
-Round 62
-Player 1 guesses/fires at row 9 column 5.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 7 column 5.
-Player 1 answers that a ship is hit.
-Round 63
-Player 1 guesses/fires at row 8 column 6.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 8 column 2.
-Player 1 answers that guess/shot missed.
-Round 64
-Player 1 guesses/fires at row 0 column 5.
-Player 2 answers that a ship is hit.
-Player 2 guesses/fires at row 9 column 8.
-Player 1 answers that guess/shot missed.
-Round 65
-Player 1 guesses/fires at row 6 column 0.
+Round 26
+Player 1 guesses/fires at row 3 column 0.
 Player 2 answers that guess/shot missed.
 Player 2 guesses/fires at row 4 column 6.
 Player 1 answers that guess/shot missed.
-Round 66
-Player 1 guesses/fires at row 4 column 9.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 1 column 9.
-Player 1 answers that guess/shot missed.
-Round 67
-Player 1 guesses/fires at row 8 column 3.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 9 column 4.
-Player 1 answers that guess/shot missed.
-Round 68
-Player 1 guesses/fires at row 3 column 8.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 2 column 1.
-Player 1 answers that guess/shot missed.
-Round 69
-Player 1 guesses/fires at row 5 column 0.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 8 column 5.
-Player 1 answers that guess/shot missed.
-Round 70
-Player 1 guesses/fires at row 1 column 3.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 9 column 9.
-Player 1 answers that guess/shot missed.
-Round 71
-Player 1 guesses/fires at row 2 column 1.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 2 column 5.
-Player 1 answers that guess/shot missed.
-Round 72
-Player 1 guesses/fires at row 1 column 7.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 2 column 0.
-Player 1 answers that guess/shot missed.
-Round 73
-Player 1 guesses/fires at row 1 column 2.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 2 column 3.
-Player 1 answers that guess/shot missed.
-Round 74
-Player 1 guesses/fires at row 6 column 9.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 4 column 8.
-Player 1 answers that a ship is hit.
-Round 75
-Player 1 guesses/fires at row 0 column 6.
+Round 27
+Player 1 guesses/fires at row 2 column 3.
 Player 2 answers that a ship is hit.
-Player 2 guesses/fires at row 3 column 9.
+Player 2 guesses/fires at row 2 column 6.
 Player 1 answers that guess/shot missed.
-Round 76
-Player 1 guesses/fires at row 7 column 0.
+Round 28
+Player 1 guesses/fires at row 8 column 6.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 8 column 4.
+Player 2 guesses/fires at row 0 column 6.
 Player 1 answers that guess/shot missed.
-Round 77
-Player 1 guesses/fires at row 8 column 7.
+Round 29
+Player 1 guesses/fires at row 9 column 8.
+Player 2 answers that the Destroyer is hit and sunk.
+Player 2 guesses/fires at row 9 column 5.
+Player 1 answers that guess/shot missed.
+Round 30
+Player 1 guesses/fires at row 1 column 0.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 4 column 7.
-Player 1 answers that guess/shot missed.
-Round 78
-Player 1 guesses/fires at row 2 column 8.
+Player 2 guesses/fires at row 7 column 5.
+Player 1 answers that a ship is hit.
+Round 31
+Player 1 guesses/fires at row 2 column 9.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 0 column 7.
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
 Player 1 answers that guess/shot missed.
-Round 79
-Player 1 guesses/fires at row 9 column 3.
+Round 32
+Player 1 guesses/fires at row 3 column 9.
 Player 2 answers that guess/shot missed.
 Player 2 guesses/fires at row 1 column 0.
 Player 1 answers that guess/shot missed.
-Round 80
-Player 1 guesses/fires at row 3 column 0.
+Round 33
+Player 1 guesses/fires at row 9 column 7.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 5 column 1.
+Player 2 guesses/fires at row 0 column 1.
 Player 1 answers that guess/shot missed.
-Round 81
-Player 1 guesses/fires at row 9 column 6.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 7 column 0.
-Player 1 answers that guess/shot missed.
-Round 82
-Player 1 guesses/fires at row 6 column 0.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 8 column 1.
-Player 1 answers that guess/shot missed.
-Round 83
-Player 1 guesses/fires at row 3 column 9.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 1 column 3.
-Player 1 answers that guess/shot missed.
-Round 84
-Player 1 guesses/fires at row 8 column 2.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 6 column 0.
-Player 1 answers that guess/shot missed.
-Round 85
-Player 1 guesses/fires at row 7 column 8.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 6 column 8.
-Player 1 answers that the Submarine is hit and sunk.
-Round 86
-Player 1 guesses/fires at row 0 column 3.
-Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 6 column 1.
-Player 1 answers that guess/shot missed.
-Round 87
-Player 1 guesses/fires at row 7 column 1.
+Round 34
+Player 1 guesses/fires at row 2 column 6.
 Player 2 answers that a ship is hit.
-Player 2 guesses/fires at row 0 column 0.
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
 Player 1 answers that guess/shot missed.
-Round 88
-Player 1 guesses/fires at row 2 column 0.
+Round 35
+Player 1 guesses/fires at row 7 column 7.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 1 column 2.
+Player 2 guesses/fires at row 5 column 5.
 Player 1 answers that guess/shot missed.
-Round 89
-Player 1 guesses/fires at row 0 column 2.
+Round 36
+Player 1 guesses/fires at row 4 column 0.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 9 column 7.
+Player 2 guesses/fires at row 3 column 5.
 Player 1 answers that guess/shot missed.
-Round 90
-Player 1 guesses/fires at row 9 column 2.
+Round 37
+Player 1 guesses/fires at row 1 column 2.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 4 column 5.
+Player 2 guesses/fires at row 1 column 5.
 Player 1 answers that guess/shot missed.
-Round 91
+Round 38
+Player 1 guesses/fires at row 6 column 4.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 8 column 4.
+Player 1 answers that guess/shot missed.
+Round 39
+Player 1 guesses/fires at row 1 column 3.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 6 column 4.
+Player 1 answers that guess/shot missed.
+Round 40
 Player 1 guesses/fires at row 7 column 0.
 Player 2 answers that guess/shot missed.
 Player 2 guesses/fires at row 4 column 4.
-Player 1 answers that the Battleship is hit and sunk.
-Round 92
-Player 1 guesses/fires at row 7 column 9.
+Player 1 answers that a ship is hit.
+Round 41
+Player 1 guesses/fires at row 3 column 2.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 0 column 5.
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
 Player 1 answers that guess/shot missed.
-Round 93
-Player 1 guesses/fires at row 2 column 9.
+Round 42
+Player 1 guesses/fires at row 4 column 3.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 5 column 7.
+Player 2 guesses/fires at row 1 column 0.
 Player 1 answers that guess/shot missed.
-Round 94
-Player 1 guesses/fires at row 9 column 7.
+Round 43
+Player 1 guesses/fires at row 2 column 1.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 3 column 8.
+Player 2 guesses/fires at row 0 column 1.
 Player 1 answers that guess/shot missed.
-Round 95
-Player 1 guesses/fires at row 2 column 0.
+Round 44
+Player 1 guesses/fires at row 0 column 9.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 9 column 1.
-Player 1 answers that the Cruiser is hit and sunk.
-Round 96
-Player 1 guesses/fires at row 0 column 7.
-Player 2 answers that the Cruiser is hit and sunk.
-Player 2 guesses/fires at row 0 column 8.
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
 Player 1 answers that guess/shot missed.
-Round 97
+Round 45
+Player 1 guesses/fires at row 4 column 9.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 2 column 4.
+Player 1 answers that a ship is hit.
+Round 46
+Player 1 guesses/fires at row 3 column 1.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 47
+Player 1 guesses/fires at row 5 column 4.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 1 column 0.
+Player 1 answers that guess/shot missed.
+Round 48
+Player 1 guesses/fires at row 4 column 2.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column 1.
+Player 1 answers that guess/shot missed.
+Round 49
+Player 1 guesses/fires at row 8 column 2.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 50
+Player 1 guesses/fires at row 1 column 7.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column 4.
+Player 1 answers that guess/shot missed.
+Round 51
+Player 1 guesses/fires at row 8 column 7.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 9 column 3.
+Player 1 answers that a ship is hit.
+Round 52
+Player 1 guesses/fires at row 0 column 3.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 53
+Player 1 guesses/fires at row 9 column 5.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 1 column 0.
+Player 1 answers that guess/shot missed.
+Round 54
+Player 1 guesses/fires at row 8 column 1.
+Player 2 answers that a ship is hit.
+Player 2 guesses/fires at row 0 column 1.
+Player 1 answers that guess/shot missed.
+Round 55
+Player 1 guesses/fires at row 3 column 5.
+Player 2 answers that a ship is hit.
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 56
+Player 1 guesses/fires at row 0 column 4.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 7 column 3.
+Player 1 answers that a ship is hit.
+Round 57
+Player 1 guesses/fires at row 2 column 7.
+Player 2 answers that a ship is hit.
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 58
+Player 1 guesses/fires at row 7 column 5.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 1 column 0.
+Player 1 answers that guess/shot missed.
+Round 59
+Player 1 guesses/fires at row 3 column 6.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column 1.
+Player 1 answers that guess/shot missed.
+Round 60
+Player 1 guesses/fires at row 6 column 2.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 61
+Player 1 guesses/fires at row 5 column 3.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 5 column 3.
+Player 1 answers that guess/shot missed.
+Round 62
+Player 1 guesses/fires at row 5 column 2.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 3 column 3.
+Player 1 answers that guess/shot missed.
+Round 63
+Player 1 guesses/fires at row 0 column 8.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 1 column 3.
+Player 1 answers that guess/shot missed.
+Round 64
 Player 1 guesses/fires at row 8 column 0.
 Player 2 answers that guess/shot missed.
-Player 2 guesses/fires at row 9 column 6.
+Player 2 guesses/fires at row 8 column 2.
 Player 1 answers that guess/shot missed.
-Round 98
+Round 65
+Player 1 guesses/fires at row 1 column 9.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 6 column 2.
+Player 1 answers that guess/shot missed.
+Round 66
+Player 1 guesses/fires at row 2 column 4.
+Player 2 answers that a ship is hit.
+Player 2 guesses/fires at row 4 column 2.
+Player 1 answers that a ship is hit.
+Round 67
+Player 1 guesses/fires at row 9 column 2.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 68
+Player 1 guesses/fires at row 5 column 0.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 1 column 0.
+Player 1 answers that guess/shot missed.
+Round 69
+Player 1 guesses/fires at row 3 column 7.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column 1.
+Player 1 answers that guess/shot missed.
+Round 70
+Player 1 guesses/fires at row 7 column 9.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 71
+Player 1 guesses/fires at row 7 column 3.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 2 column 2.
+Player 1 answers that guess/shot missed.
+Round 72
+Player 1 guesses/fires at row 7 column 8.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column 2.
+Player 1 answers that guess/shot missed.
+Round 73
+Player 1 guesses/fires at row 9 column 1.
+Player 2 answers that a ship is hit.
+Player 2 guesses/fires at row 9 column 1.
+Player 1 answers that a ship is hit.
+Round 74
+Player 1 guesses/fires at row 9 column 0.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 75
+Player 1 guesses/fires at row 8 column 9.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 1 column 0.
+Player 1 answers that guess/shot missed.
+Round 76
+Player 1 guesses/fires at row 0 column 5.
+Player 2 answers that a ship is hit.
+Player 2 guesses/fires at row 0 column 1.
+Player 1 answers that guess/shot missed.
+Round 77
+Player 1 guesses/fires at row 9 column 3.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 78
+Player 1 guesses/fires at row 3 column 3.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 7 column 1.
+Player 1 answers that a ship is hit.
+Round 79
+Player 1 guesses/fires at row 4 column 1.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 80
+Player 1 guesses/fires at row 7 column 1.
+Player 2 answers that the Submarine is hit and sunk.
+Player 2 guesses/fires at row 1 column 0.
+Player 1 answers that guess/shot missed.
+Round 81
 Player 1 guesses/fires at row 1 column 1.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column 1.
+Player 1 answers that guess/shot missed.
+Round 82
+Player 1 guesses/fires at row 7 column 2.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 83
+Player 1 guesses/fires at row 1 column 6.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 5 column 1.
+Player 1 answers that guess/shot missed.
+Round 84
+Player 1 guesses/fires at row 6 column 1.
 Player 2 answers that guess/shot missed.
 Player 2 guesses/fires at row 3 column 1.
 Player 1 answers that guess/shot missed.
-Round 99
-Player 1 guesses/fires at row 1 column 8.
+Round 85
+Player 1 guesses/fires at row 3 column 8.
 Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 1 column 1.
+Player 1 answers that guess/shot missed.
+Round 86
+Player 1 guesses/fires at row 1 column 5.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 8 column 0.
+Player 1 answers that guess/shot missed.
+Round 87
+Player 1 guesses/fires at row 2 column 8.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 6 column 0.
+Player 1 answers that guess/shot missed.
+Round 88
+Player 1 guesses/fires at row 7 column 6.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 4 column 0.
+Player 1 answers that guess/shot missed.
+Round 89
+Player 1 guesses/fires at row 9 column 6.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 2 column 0.
+Player 1 answers that guess/shot missed.
+Round 90
+Player 1 guesses/fires at row 4 column 8.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 0 column 0.
+Player 1 answers that guess/shot missed.
+Round 91
+Player 1 guesses/fires at row 5 column 5.
+Player 2 answers that the Battleship is hit and sunk.
+Player 2 guesses/fires at row 8 column 9.
+Player 1 answers that guess/shot missed.
+Round 92
+Player 1 guesses/fires at row 6 column 3.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 6 column 9.
+Player 1 answers that guess/shot missed.
+Round 93
+Player 1 guesses/fires at row 9 column 4.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 4 column 9.
+Player 1 answers that guess/shot missed.
+Round 94
+Player 1 guesses/fires at row 6 column 7.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 2 column 9.
+Player 1 answers that guess/shot missed.
+Round 95
+Player 1 guesses/fires at row 0 column 7.
+Player 2 answers that the Cruiser is hit and sunk.
+Player 2 guesses/fires at row 0 column 9.
+Player 1 answers that guess/shot missed.
+Round 96
+Player 1 guesses/fires at row 1 column 4.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 9 column 8.
+Player 1 answers that guess/shot missed.
+Round 97
+Player 1 guesses/fires at row 3 column 4.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 7 column 8.
+Player 1 answers that guess/shot missed.
+Round 98
+Player 1 guesses/fires at row 4 column 7.
+Player 2 answers that guess/shot missed.
+Player 2 guesses/fires at row 5 column 8.
+Player 1 answers that the Submarine is hit and sunk.
+Round 99
+Player 1 guesses/fires at row 2 column 5.
+Player 2 answers that the AircraftCarrier is hit and sunk.
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 100
+Player 2 guesses/fires at row 1 column 0.
+Player 1 answers that guess/shot missed.
+Round 101
+Player 2 guesses/fires at row 0 column 1.
+Player 1 answers that guess/shot missed.
+Round 102
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 103
+Player 2 guesses/fires at row 3 column 8.
+Player 1 answers that guess/shot missed.
+Round 104
+Player 2 guesses/fires at row 1 column 8.
+Player 1 answers that guess/shot missed.
+Round 105
+Player 2 guesses/fires at row 8 column 7.
+Player 1 answers that guess/shot missed.
+Round 106
+Player 2 guesses/fires at row 6 column 7.
+Player 1 answers that guess/shot missed.
+Round 107
+Player 2 guesses/fires at row 4 column 7.
+Player 1 answers that guess/shot missed.
+Round 108
+Player 2 guesses/fires at row 2 column 7.
+Player 1 answers that guess/shot missed.
+Round 109
+Player 2 guesses/fires at row 0 column 7.
+Player 1 answers that guess/shot missed.
+Round 110
+Player 2 guesses/fires at row 9 column 6.
+Player 1 answers that guess/shot missed.
+Round 111
+Player 2 guesses/fires at row 7 column 6.
+Player 1 answers that guess/shot missed.
+Round 112
+Player 2 guesses/fires at row 5 column 6.
+Player 1 answers that guess/shot missed.
+Round 113
+Player 2 guesses/fires at row 3 column 6.
+Player 1 answers that guess/shot missed.
+Round 114
+Player 2 guesses/fires at row 1 column 6.
+Player 1 answers that guess/shot missed.
+Round 115
+Player 2 guesses/fires at row 8 column 5.
+Player 1 answers that guess/shot missed.
+Round 116
+Player 2 guesses/fires at row 6 column 5.
+Player 1 answers that guess/shot missed.
+Round 117
+Player 2 guesses/fires at row 4 column 5.
+Player 1 answers that guess/shot missed.
+Round 118
+Player 2 guesses/fires at row 2 column 5.
+Player 1 answers that guess/shot missed.
+Round 119
+Player 2 guesses/fires at row 0 column 5.
+Player 1 answers that guess/shot missed.
+Round 120
+Player 2 guesses/fires at row 9 column 4.
+Player 1 answers that guess/shot missed.
+Round 121
+Player 2 guesses/fires at row 7 column 4.
+Player 1 answers that a ship is hit.
+Round 122
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 123
+Player 2 guesses/fires at row 1 column 0.
+Player 1 answers that guess/shot missed.
+Round 124
+Player 2 guesses/fires at row 0 column 1.
+Player 1 answers that guess/shot missed.
+Round 125
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 126
+Player 2 guesses/fires at row 5 column 4.
+Player 1 answers that guess/shot missed.
+Round 127
+Player 2 guesses/fires at row 3 column 4.
+Player 1 answers that a ship is hit.
+Round 128
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 129
+Player 2 guesses/fires at row 1 column 0.
+Player 1 answers that guess/shot missed.
+Round 130
+Player 2 guesses/fires at row 0 column 1.
+Player 1 answers that guess/shot missed.
+Round 131
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 132
+Player 2 guesses/fires at row 1 column 4.
+Player 1 answers that the Battleship is hit and sunk.
+Round 133
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 134
+Player 2 guesses/fires at row 1 column 0.
+Player 1 answers that guess/shot missed.
+Round 135
+Player 2 guesses/fires at row 0 column 1.
+Player 1 answers that guess/shot missed.
+Round 136
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 137
+Player 2 guesses/fires at row 8 column 3.
+Player 1 answers that guess/shot missed.
+Round 138
+Player 2 guesses/fires at row 6 column 3.
+Player 1 answers that guess/shot missed.
+Round 139
+Player 2 guesses/fires at row 4 column 3.
+Player 1 answers that guess/shot missed.
+Round 140
+Player 2 guesses/fires at row 2 column 3.
+Player 1 answers that guess/shot missed.
+Round 141
+Player 2 guesses/fires at row 0 column 3.
+Player 1 answers that guess/shot missed.
+Round 142
+Player 2 guesses/fires at row 9 column 2.
+Player 1 answers that the Cruiser is hit and sunk.
+Round 143
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 144
+Player 2 guesses/fires at row 1 column 0.
+Player 1 answers that guess/shot missed.
+Round 145
+Player 2 guesses/fires at row 0 column 1.
+Player 1 answers that guess/shot missed.
+Round 146
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 147
 Player 2 guesses/fires at row 7 column 2.
 Player 1 answers that the AircraftCarrier is hit and sunk.
-Round 100
-Player 1 guesses/fires at row 8 column 8.
-Player 2 answers that a ship is hit.
-Round 101
-Player 1 guesses/fires at row 8 column 1.
-Player 2 answers that a ship is hit.
-Round 102
-Player 1 guesses/fires at row 0 column 0.
-Player 2 answers that guess/shot missed.
-Round 103
-Player 1 guesses/fires at row 8 column 1.
-Player 2 answers that guess/shot missed.
-Round 104
-Player 1 guesses/fires at row 8 column 0.
-Player 2 answers that guess/shot missed.
-Round 105
-Player 1 guesses/fires at row 8 column 9.
-Player 2 answers that guess/shot missed.
-Round 106
-Player 1 guesses/fires at row 9 column 1.
-Player 2 answers that the Submarine is hit and sunk.
-Round 107
-Player 1 guesses/fires at row 0 column 0.
-Player 2 answers that guess/shot missed.
-Round 108
-Player 1 guesses/fires at row 0 column 8.
-Player 2 answers that guess/shot missed.
-Round 109
-Player 1 guesses/fires at row 1 column 9.
-Player 2 answers that guess/shot missed.
-Round 110
-Player 1 guesses/fires at row 1 column 0.
-Player 2 answers that guess/shot missed.
-Round 111
-Player 1 guesses/fires at row 9 column 8.
-Player 2 answers that the Destroyer is hit and sunk.
-Player 1 took 111 rounds to destroy opponent's ships.
-Player 2 took 99 rounds to destroy opponent's ships.
-Player 2 wins.
+Round 148
+Player 2 guesses/fires at row -1 column 0.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 149
+Player 2 guesses/fires at row 1 column 0.
+Player 1 answers that guess/shot missed.
+Round 150
+Player 2 guesses/fires at row 0 column 1.
+Player 1 answers that guess/shot missed.
+Round 151
+Player 2 guesses/fires at row 0 column -1.
+Invalid guess or repeated guess.
+Player 1 answers that guess/shot missed.
+Round 152
+Player 2 guesses/fires at row 5 column 2.
+Player 1 answers that the Destroyer is hit and sunk.
+Player 1 took 99 rounds to destroy opponent's ships.
+Player 2 took 152 rounds to destroy opponent's ships.
+Player 1 wins.

@@ -16,7 +16,6 @@ public class MonteCarloGuessPlayer  implements Player{
   private int shipsRemaining = 0;
   private ArrayList<World.ShipLocation> shipsLoc;
   private HashMap<String, Ghostship> ghostShips = new HashMap<>();
-  private ArrayList <World.Coordinate> coordSet = new ArrayList<>();
   private HashMap<World.Coordinate, Integer> coordinateConfigurations = new
           HashMap<>();
   private boolean huntMode;
@@ -106,8 +105,6 @@ public class MonteCarloGuessPlayer  implements Player{
           if(ghostShips.get(sl.ship.name()).len == 0){
             answer.shipSunk = sl.ship;
           }
-          System.out.println(" -- monte -- Ship cells reamining: " +
-                  shipsRemaining);
           it.remove();
           break;
         }
@@ -124,6 +121,7 @@ public class MonteCarloGuessPlayer  implements Player{
     if(huntMode){
 
       huntingTargets = new ArrayList<>();
+      World.Coordinate coordinate [] = new World.Coordinate [4];
 
       World.Coordinate coordinate1 = world.new Coordinate();
       coordinate1.row = currentTarget.row +1;
@@ -140,10 +138,18 @@ public class MonteCarloGuessPlayer  implements Player{
 
       World.Coordinate bestTarget = world.new Coordinate();
 
-      huntingTargets.add(coordinate1);
-      huntingTargets.add(coordinate2);
-      huntingTargets.add(coordinate3);
-      huntingTargets.add(coordinate4);
+      coordinate[0] = coordinate1;
+      coordinate[1] = coordinate2;
+      coordinate[2] = coordinate3;
+      coordinate[3] = coordinate4;
+
+      for(int i = 0; i< coordinate.length; i++){
+        if(coordinate[i].column > 0 || coordinate[i].row < 10
+                && coordinate[i].column < 10 || coordinate[i].row > 0){
+          huntingTargets.add(coordinate [i]);
+        }
+      }
+
       int highestValue = 0;
 
       for(World.Coordinate e: huntingTargets){
@@ -190,7 +196,6 @@ public class MonteCarloGuessPlayer  implements Player{
       currentTarget.row = guess.column;
     } else{
       huntMode = false;
-
 
     }
   }
