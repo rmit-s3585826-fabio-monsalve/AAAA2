@@ -6,24 +6,44 @@ import world.World;
 import java.util.*;
 
 /**
- * Greedy guess player (task B).
+ * Montecarlo guess player (task C).
  * Please implement this class.
  *
- * @author Banu and Fabio Monsalve s3585826
+ * @authors Banu and Fabio Monsalve s3585826
  */
 public class MonteCarloGuessPlayer  implements Player{
-  World world;
+  private World world;
   private int shipsRemaining = 0;
   private ArrayList<World.ShipLocation> shipsLoc;
   private HashMap<String, Ghostship> ghostShips = new HashMap<>();
   private HashMap<World.Coordinate, Integer> coordinateConfigurations = new
           HashMap<>();
   private boolean huntMode;
-  private Queue configurationsQueue = new LinkedList();
-  private Queue configurationsQueueSequence = new LinkedList();
-  World.Coordinate currentTarget;
-  private ArrayList<World.Coordinate> huntingTargets;
 
+  // Initial number of configurations values for the first column in the board
+  private Queue<Integer> configurationsQueue = new LinkedList();
+
+  // Sequence of numbers which are added or subtracted to the initial values of
+  // the first column as the each column is iterated through
+  private Queue<Integer> configurationsQueueSequence = new LinkedList();
+
+  private World.Coordinate currentTarget;
+
+  /**
+   * In this method we create HashMap of what we call ghostships. This hashmap
+   * gets used to return the number of ships remaining, we specifically use the
+   * length of all ghostships and substract 1 from it every time that we know a
+   * ship has been hit.
+   *
+   * Furthermore for every cell that is iterated through from World a copy is
+   * is put into a HashMap called coordinateConfigurations along with a
+   * corresponding integer which details the number of configuration that the
+   * coordinate can have. Each configuration is taken from the values of two
+   * Queues; configurationsQueue and configurationsQueueSequence (each are
+   * explained above)
+   *
+   * @param world world object contains the configuration and ship locations
+   */
   @Override
   public void initialisePlayer(World world) {
     this.world = world;
@@ -35,6 +55,8 @@ public class MonteCarloGuessPlayer  implements Player{
     shipsLoc = world.shipLocations;
     Ghostship ghostship;
 
+    // Make copies of each ship and add them to ghostShips and add the length of
+    // all ships to shipsRemaining
     for (World.ShipLocation s: shipsLoc) {
       shipsRemaining = shipsRemaining + s.ship.len();
       System.out.println(shipsRemaining);
@@ -43,6 +65,8 @@ public class MonteCarloGuessPlayer  implements Player{
       ghostShips.put(s.ship.name(), ghostship);
     }
 
+    // Add all current possible coordinates from world to coordSet
+    // make configurations value for each coordinate
     for (int i =0; i< world.numColumn; i++) {
       for (int j= 0; j< world.numRow; j++) {
         World.Coordinate cd = world.new Coordinate();
@@ -64,6 +88,10 @@ public class MonteCarloGuessPlayer  implements Player{
     }
 
   }
+
+  /*
+  Used to add values when needed in each iteration in initialise player
+   */
   private void enqueCounter(){
     configurationsQueueSequence.add(0);
     configurationsQueueSequence.add(0);
@@ -76,6 +104,10 @@ public class MonteCarloGuessPlayer  implements Player{
     configurationsQueueSequence.add(-7);
     configurationsQueueSequence.add(-9);
   }
+
+  /*
+  Used to add values when needed in each iteration in initialise player
+  */
   private void enque(){
     configurationsQueue.add(10);
     configurationsQueue.add(11);
@@ -89,6 +121,16 @@ public class MonteCarloGuessPlayer  implements Player{
     configurationsQueue.add(10);
   }
 
+  /**
+   * This method first checks if any of the ships have been hit, if they have it
+   * returns isHit as true and the name of the ship sunk by using the ghostShip
+   * HashMap if its length is 0, if it hasn't been sunk but it has been hit, the
+   * length of the ship is reduced by 1.
+   *
+   * @param guess from the opponent.
+   *
+   * @return answer to opponent
+   */
   @Override
   public Answer getAnswer(Guess guess) {
     Answer answer = new Answer();
@@ -113,16 +155,22 @@ public class MonteCarloGuessPlayer  implements Player{
     return answer;
   }
 
+  /**
+   * If in hunt mode this method will go through the surrounding cells of the
+   * current target and work out which cell is the most likely to have a ship,
+   * this cell becomes the bestTarget.
+   * @return
+   */
   @Override
   public Guess makeGuess() {
 
     Guess guess = new Guess();
 
     if(huntMode){
-
-      huntingTargets = new ArrayList<>();
+      ArrayList<World.Coordinate> huntingTargets = new ArrayList<>();
       World.Coordinate coordinate [] = new World.Coordinate [4];
 
+      // Make surrounding coordinates of current target
       World.Coordinate coordinate1 = world.new Coordinate();
       coordinate1.row = currentTarget.row +1;
       coordinate1.column = currentTarget.column;
@@ -143,6 +191,7 @@ public class MonteCarloGuessPlayer  implements Player{
       coordinate[2] = coordinate3;
       coordinate[3] = coordinate4;
 
+      // Check if any coordinate is out of bounds
       for(int i = 0; i< coordinate.length; i++){
         if(coordinate[i].column > 0 || coordinate[i].row < 10
                 && coordinate[i].column < 10 || coordinate[i].row > 0){
@@ -152,6 +201,8 @@ public class MonteCarloGuessPlayer  implements Player{
 
       int highestValue = 0;
 
+      // Iterate through each coordinate and work out which has the highest
+      // number of configurations, this then becomes the best target
       for(World.Coordinate e: huntingTargets){
 
         for(World.Coordinate r : coordinateConfigurations.keySet()) {
@@ -167,13 +218,14 @@ public class MonteCarloGuessPlayer  implements Player{
         }
       }
 
+      // If not in hunting mode hit the cell with the most configurations
+      // overall
     } else {
       int highestValue = 0;
       World.Coordinate coordinate = world.new Coordinate();
 
       for(Map.Entry<World.Coordinate, Integer> e :
               coordinateConfigurations.entrySet()){
-
         for(int i = 0; i < coordinateConfigurations.size(); i ++){
           if(e.getValue() > highestValue){
             highestValue = e.getValue();
@@ -183,6 +235,8 @@ public class MonteCarloGuessPlayer  implements Player{
         guess.column = coordinate.column;
         guess.row = coordinate.row;
       }
+
+      //remove coordinate that has been used
       coordinateConfigurations.remove(coordinate);
     }
     return guess;
@@ -200,6 +254,9 @@ public class MonteCarloGuessPlayer  implements Player{
     }
   }
 
+  /**
+   * @return true if there are no more ships to sink
+   */
   @Override
   public boolean noRemainingShips() {
     return shipsRemaining == 0;
