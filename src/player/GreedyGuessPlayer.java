@@ -4,6 +4,7 @@ import ship.Ghostship;
 import world.World;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -22,7 +23,6 @@ public class GreedyGuessPlayer  implements Player {
   private boolean targetingMode;
   private World.Coordinate currentTarget;
   private ArrayList<World.Coordinate> targets = new ArrayList<>();;
-  private int counter;
 
   @Override
   public void initialisePlayer(World world) {
@@ -105,10 +105,19 @@ public class GreedyGuessPlayer  implements Player {
         coordinate[2] = coordinate3;
         coordinate[3] = coordinate4;
 
-        for (int i = 0; i < coordinate.length; i++) {
-          if (coordinate[i].column > 0 && coordinate[i].row < 10
-                  && coordinate[i].column < 10 && coordinate[i].row > 0) {
-            targets.add(coordinate[i]);
+
+        for (World.Coordinate aCoordinate : coordinate) {
+          if (aCoordinate.column >= 0 && aCoordinate.row < 10
+                  && aCoordinate.column < 10 && aCoordinate.row >= 0) {
+            targets.add(aCoordinate);
+          }
+        }
+
+        ArrayList<World.Coordinate> tempTargets = targets;
+
+        for(int i = 0; i<tempTargets.size(); i++){
+          if(world.shots.contains(tempTargets.get(i))){
+            targets.remove(i);
           }
         }
 
@@ -123,28 +132,33 @@ public class GreedyGuessPlayer  implements Player {
       World.Coordinate nextGuessVal;
 
       int c = 1;
+      boolean a = true;
+      while(a) {
+        while (!hits.isEmpty()) {
+          if (c > hits.size()) {
+            System.out.println(hits.get(hits.size() - 1).column + " " +
+                    hits.get(hits.size() - 1).row);
+            c = 1;
+            nextGuessVal = hits.get(hits.size() - c);
+            guess.column = nextGuessVal.column;
+            guess.row = nextGuessVal.row;
+            hits.remove(hits.size() - c);
+            break;
+          }
 
-      while (!hits.isEmpty()) {
-        if (c > hits.size()) {
-          System.out.println(hits.get(hits.size() - 1).column + " " +
-                  hits.get(hits.size() - 1).row);
-          c = 1;
           nextGuessVal = hits.get(hits.size() - c);
-          guess.column = nextGuessVal.column;
-          guess.row = nextGuessVal.row;
-          hits.remove(hits.size() - c);
-          break;
+
+          if (nextGuessVal.column % 2 == nextGuessVal.row % 2) {
+            guess.column = nextGuessVal.column;
+            guess.row = nextGuessVal.row;
+            hits.remove(hits.size() - c);
+            break;
+          } else {
+            c++;
+          }
         }
-
-        nextGuessVal = hits.get(hits.size() - c);
-
-        if (nextGuessVal.column % 2 == nextGuessVal.row % 2) {
-          guess.column = nextGuessVal.column;
-          guess.row = nextGuessVal.row;
-          hits.remove(hits.size() - c);
-          break;
-        } else {
-          c++;
+        if(!world.shots.contains(guess)){
+          a = false;
         }
       }
     }
