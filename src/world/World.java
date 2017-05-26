@@ -22,6 +22,17 @@ public class World {
   public class Coordinate {
     public int row;
     public int column;
+
+    @Override
+    public boolean equals(Object object) {
+      boolean isSame = false;
+      if (object != null && object instanceof Coordinate) {
+        Coordinate other = (Coordinate) object;
+        isSame = (this.row == other.row && this.column == other.column);
+      }
+
+      return isSame;
+    }
   }
 
   // nested class for storing ship locations.
