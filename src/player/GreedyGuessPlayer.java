@@ -4,6 +4,7 @@ import ship.Ghostship;
 import world.World;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -20,11 +21,9 @@ public class GreedyGuessPlayer  implements Player {
   private HashMap<String, Ghostship> ghostShips = new HashMap<>();
   private ArrayList<World.Coordinate> coordSet = new ArrayList<>();
   private boolean targetingMode;
-  private int targetsHit = 0;
-  private int currentTargetRow;
-  private int currentTargetColumn;
-  World.Coordinate currentTarget;
+  private World.Coordinate currentTarget;
   private ArrayList<World.Coordinate> huntingTargets;
+  private int counter;
 
   @Override
   public void initialisePlayer(World world) {
@@ -79,46 +78,49 @@ public class GreedyGuessPlayer  implements Player {
   @Override
   public Guess makeGuess() {
     Guess guess = new Guess();
-
+    World.Coordinate coordinate [] = new World.Coordinate [4];
+    huntingTargets = new ArrayList<>();
     if (targetingMode) {
-      boolean a = true;
-
       while (true) {
-        huntingTargets = new ArrayList<>();
-        if (targetsHit == 0) {
-          World.Coordinate coordinate1 = world.new Coordinate();
-          coordinate1.row = currentTarget.row - 1;
-          coordinate1.column = currentTarget.column;
-          guess.row = coordinate1.row;
-          guess.column = coordinate1.column;
-        } else if (targetsHit == 1) {
-          World.Coordinate coordinate2 = world.new Coordinate();
-          coordinate2.row = currentTarget.row + 1;
-          coordinate2.column = currentTarget.column;
-          guess.row = coordinate2.row;
-          guess.column = coordinate2.column;
-        } else if (targetsHit == 2) {
-          World.Coordinate coordinate3 = world.new Coordinate();
-          coordinate3.row = currentTarget.row;
-          coordinate3.column = currentTarget.column + 1;
-          guess.row = coordinate3.row;
-          guess.column = coordinate3.column;
-        } else if (targetsHit == 3) {
-          World.Coordinate coordinate4 = world.new Coordinate();
-          coordinate4.row = currentTarget.row;
-          coordinate4.column = currentTarget.column - 1;
-          guess.row = coordinate4.row;
-          guess.column = coordinate4.column;
-          targetingMode = false;
+
+        World.Coordinate coordinate1 = world.new Coordinate();
+        coordinate1.row = currentTarget.row - 1;
+        coordinate1.column = currentTarget.column;
+
+        World.Coordinate coordinate2 = world.new Coordinate();
+        coordinate2.row = currentTarget.row + 1;
+        coordinate2.column = currentTarget.column;
+
+        World.Coordinate coordinate3 = world.new Coordinate();
+        coordinate3.row = currentTarget.row;
+        coordinate3.column = currentTarget.column + 1;
+
+        World.Coordinate coordinate4 = world.new Coordinate();
+        coordinate4.row = currentTarget.row;
+        coordinate4.column = currentTarget.column - 1;
+
+        coordinate[0] = coordinate1;
+        coordinate[1] = coordinate2;
+        coordinate[2] = coordinate3;
+        coordinate[3] = coordinate4;
+
+        for (int i = 0; i < coordinate.length; i++) {
+          if (coordinate[i].column > 0 || coordinate[i].row < 10
+                  && coordinate[i].column < 10 || coordinate[i].row > 0) {
+            huntingTargets.add(coordinate[i]);
+          }
         }
 
-        if (guessValidation(guess)){
-          targetsHit++;
-          return guess;
-        }
+
+        guess.row = huntingTargets.get(0).row;
+        guess.column = huntingTargets.get(0).column;
+        huntingTargets.remove(0);
+        targetingMode = false;
+        counter ++;
+        return guess;
       }
-
-    } else {
+    }
+    else {
       ArrayList<World.Coordinate> hits = coordSet;
       World.Coordinate nextGuessVal;
 
@@ -151,21 +153,15 @@ public class GreedyGuessPlayer  implements Player {
     return guess;
   }
 
-  public boolean guessValidation(Guess guess){
-
-    return guess.row > 0 || guess.row < 10 || guess.column > 0 ||
-            guess.column < 10;
-  }
-
-
   @Override
   public void update(Guess guess, Answer answer) {
 
     if(answer.isHit){
       targetingMode = true;
-      currentTargetRow = guess.row;
-      currentTargetColumn = guess.column;
-      targetsHit = 0;
+      currentTarget.row = guess.row;
+      currentTarget.column = guess.column;
+    }else{
+      targetingMode = false;
     }
   }
 
